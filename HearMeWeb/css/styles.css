@@ -1,0 +1,142 @@
+body {
+  background-color: white;
+
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.img-circle {
+  border-radius:50%;
+  height: 5vw;
+  width: 5vw;
+  display: inline-block;
+  border: 5px border-style black; 
+}
+
+.index-divs {
+  width: 55%;
+  height: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+#bigBlackBlock {
+  background-color: black;
+  width: 1200px;
+  height: 600px;
+  vertical-align: middle;
+  position: relative;
+}
+
+#success {
+  color: floralwhite;
+  font-family: 'Cutive Mono';
+  font-size: 120px;
+  text-align: center;
+  letter-spacing: 10px;
+ 
+}
+
+#savescore {
+  color: floralwhite;
+  font-family: 'Cutive Mono';
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#block1 {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  border: 2px solid white;
+  top: 30px;
+  text-align: center;
+}
+
+.container-div {
+  position: relative;
+  width: 600px;
+  height: 70px;
+  margin: 0 auto;
+  color: white;
+  font-family: 'Cinzel';
+  text-align: center;
+}
+
+#welcomeHeader {
+  top: 200px;
+  font-size: 45px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid white;
+}
+
+#buttoncontainer {
+  top: 300px;
+  font-size: 90px;
+}
+
+button {
+  background-color: black;
+  height: 100%;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Cinzel';
+  font-size: 40px;
+  
+}
+
+#homereturn {
+  border: 2px solid white;
+  height: 60px;
+  width: 200px;
+  color: white;
+  font-family: 'Cutive Mono';
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  top: 500px;
+  
+}
+
+#JoinUs {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  border: 6px solid white;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+}
+.middle{top:50%;margin-top:-10px;/*half of the .box height*/}
+.bottom{bottom:0}
+
+.left{left:0;}
+.center{left:50%;margin-left:-10px;/*half of the .box width*/}
+
+#welcome {
+  top: 55%;
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  border: 6px solid white;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+}
+
+#slogan-div {
+  background-color: black;
+  width: 1000px;
+  height: 50px;
+  display: inline-block;
+
+}
