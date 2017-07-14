@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<script>
+		var music;
+		function setup(){
+			loadJSON("https://webaudio.github.io/web-audio-api/", gotData, 'jsonp');
+		}
+
+		function gotData(data){
+			println(data);
+		}
+
+		function draw(){
+			background(0)
+		}
+
+		document.getElementById("demo").innerHTML = setup();
+
+/*
+		var api_key = '4d6da92716859788c58699a7d56ee5bb';
+		var weather_data = loadjson('http://api.openweathermap.org/data/2.5/weather?q=Montreal,ca&units=imperial&appid=' + api_key);
+
+		results.append("Weather For: " + weather_data.name + '<br/>');
+		results.append("Current: " + weather_data.main.temp + '&deg;F<br/>');*/
+	</script>
+</head>
+<body>
+	<p> working </p>
+	<div id=weather_widget>
+	</div>
+</body>
+</html>
