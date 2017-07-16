@@ -40,7 +40,21 @@
                 color: white;
 
             }
-            #join{
+            input {
+                border-radius: 5px;
+                font-size: 20px;
+                color: grey;
+                font-family: "Cardo";
+                background-color: #3a2110;
+                border: 2px solid white;
+                padding: 10px;
+                color: white;
+
+            }
+            input#btnSubmit {
+            background-color: black;
+            }
+            #btnsubmit{
                   font-family: 'Cardo';
                   font-size: 40px;
   font-style: normal;
@@ -57,7 +71,7 @@
             h3 {
                 font-family: 'Cardo';
                 font-size: 15px;
-                font-weight: thin;
+                    font-weight: thin;
                 line-height: 5px;
             }
             h4 {
