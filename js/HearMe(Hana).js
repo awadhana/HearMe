@@ -1,12 +1,11 @@
-function popUp() {
-    NFClient.init(function(info) 
-    alert("This is a Javascript alert");
-    )}
-
 function ClearFields() {
+     
+document.getElementById('txtPassword').value = '';
+document.getElementById('txtretypePassword').value = '';
 
-     textfield1.value="";
 }
+  
+window.onload = ClearFields();
 
 var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); // define audio context
 // Webkit/blink browsers need prefix, Safari won't work without window.
