@@ -1,0 +1,13 @@
+function popUp() {
+    NFClient.init(function(info)) {}
+    alert("This is a Javascript alert");
+}
+
+function ClearFields() {
+
+     textfield1.value="";
+}
+
+
+
+
