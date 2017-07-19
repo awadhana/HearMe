@@ -1,29 +1,33 @@
- 
- 
+
  body{
      background-color: black;
  }
- div {
- margin-left: 9px;
- margin-top:  -10px;
- background-color:white;
- }
-p { 
-  font-size: 150px;
-  color:black;
-  
-  
-}div.scroll {
-    background-color: #00FFFF;
-    width: 800px;
-    height: 1000px;
-    margin-left:2590px;
-    margin-top:-60;
+div{
+    background-color: white;
+    height:400px;
     
 }
- 
-img {
-margin-left: 1200px; 
+p{
+ font-size:75px;
+ margin-left:90px;
 }
-
+h1{ 
+    font-size: 150px;
+    color:black;
+}
+div.scroll {
+    background-color:white;
+    width:600px;
+    height:2500px;
+    margin-bottom:500px;
+    margin-left:5200px;
+ 
+    overflow: scroll;
+}
+img {
+   height:200px;
+   width:150px;
+   margin-top:10px;
+   margin-left:170px;
+}
 
