@@ -8,8 +8,7 @@
         <script src="js/hearme.js" ></script>
         <script src= "http;//www.noteflight.com/clienttapi/2.0.0/nfclient.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-         <script src="http://www.noteflight.com/clientapi/2.0.0/nfclient.js"></script>
-
+        
     </head>
     <body>
        
@@ -23,24 +22,15 @@
                 <h2>Get Ready to Make Incredible<br/></h2>
                 <h2>Music!</h2>
             </div>
-
-            <script>
-                  // Initialize the Noteflight client API.
-  NFClient.init(function(info) {
-    alert("Noteflight API is ready, version " + info.version);
-  });
-
-</script>
     
-            <input placeholder="Username" rows = "1" cols = "30"><br/><br/>
-            <input placeholder="Email" rows = "1" cols = "30"><br/><br/>
-            <input type= "password" id=txtPassword placeholder= "Password" rows = "1" cols = "30"><br/><br/>
-            <input type= "password" id=txtretypePassword placeholder = "Retype password" rows = "1" cols = "30"><br/><br>
+            <textarea placeholder="Username" rows = "1" cols = "30"></textarea><br/><br/>
+            <textarea placeholder="Email" rows = "1" cols = "30"></textarea><br/><br/>
+            <textarea id=txtPassword placeholder= "Password" rows = "1" cols = "30"></textarea><br/><br/>
+            <textarea id=txtretypePassword placeholder = "Retype password" rows = "1" cols = "30"></textarea><br/><br>
   
-            <input type="button" id="btnSubmit" value="Join Now!" />
+            <input type="button" id="btnSubmit" value="Submit" />
 
 
-            
             <h3> By Joining Hear Me you agree to our<br/></h3>
             <a href="termsandconditions.html" target="_top"><h4>Terms and Conditions</h4></a>
             
@@ -60,7 +50,6 @@
                     alert("Passwords do not match.");
                     return false;
                 }
-                 <a href="termsandconditions.html" target="_top"><h4>Terms and Conditions</a>
                 return true;
             });
         });
