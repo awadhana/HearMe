@@ -118,8 +118,6 @@ hr {
 }
 
 #bigBlackBlock {
-  background-image: url("C:\Users\GWC-ATL-09\HearMe\assets\whitestaff.png");
-  background-repeat: no-repeat;
   background-color: black;
   width: 1350px;
   height: 600px;
@@ -227,13 +225,13 @@ button {
   top: 180px;
   left: 610px;
   width: 150px;
-  height: 40px;
+  height: 45px;
   background-color: black;
   border: 1px solid white;
   color: white;
   display: inline-block;
   text-align: center;
-  line-height: 40px;
+  line-height: 45px;
   position: absolute;
 }
 
@@ -247,13 +245,13 @@ button {
   top: 240px;
   left: 585px;
   width: 200px;
-  height: 50px;
+  height: 55px;
   background-color: black;
   border: 1px solid white;
   color: white;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  line-height: 50px;
+  line-height: 55px;
   position: absolute;
 }
