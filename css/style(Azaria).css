@@ -1,6 +1,7 @@
 body {
-   background-color:black;
-  background-image: url('../assets/floating_notes.jpg') }
+  background-color:black;
+  background-image: url('../assets/floatingnotes.jpg');
+}
 div{
 font-size: 24px;
 height:450px;
