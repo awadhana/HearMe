@@ -30,4 +30,8 @@ img {
    margin-top:10px;
    margin-left:170px;
 }
+hr {
+  border: 0;
+  border-top: 3px double black;
+}
 
