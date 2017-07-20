@@ -2,28 +2,49 @@
 <html>
     <head>
         <title>HearMe</title>
-       <link rel="stylesheet" href= "css/styles.css" type= "text/css">
-       <script src="js/hearme.js" ></script>
-        <script src= "http;//www.noteflight.com/clienttapi/2.0.0/nfclient.js"></script>
-      
+        
+        <link rel="stylesheet" href= "../css/styles(Hana).css" type= "text/css">
+
+        <!-- Calls to JQuery -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <!-- API For NoteFlight -->
+        <!--<script src= "http;//www.noteflight.com/clienttapi/2.0.0/nfclient.js"></script>-->
+
+        <!-- We wrote these scripts -->
+        <script src="../js/HearMe(Hana).js" ></script>
+        <script src="../js/Validation.js"></script>
+
+
     </head>
     <body>
-       <div id= "wrapper">
-  <div id="wrapper">
-    <img src = "assests/music_bg.jpg"/>
-	    <div id="header">
-        <h1><b>Welcome Back!<br/></b></h1>
-       
-  </div>
-        <textarea placeholder="Username" rows = "1" cols = "30"></textarea><br/><br/>
-    <textarea placeholder="Email" rows = "1" cols = "30"></textarea><br/><br/>
-    <textarea placeholder= "Password" rows = "1" cols = "30"></textarea><br/><br/>
-    <p> <a href="forgotpassword.html" target="_top">Forgot Password?</a></p>
-     
-<div>
-<img src = "assests/Musicflip.jpg"/> 
-</div>
-  </div>
-</div>
+
+        <div id="wrapper">
+            
+            <img src = "../assets/musicbkgd(2).jpg"/>
+        
+            <div id="header">
+                
+                <h1><b>Welcome Back!</b></h1>
+              
+            </div>
+    
+            <form method="post" action="#">
+                <input id="username" placeholder="Username" rows = "1" cols = "30"></input><br/><br/>
+                <input  type="email" required  pattern= "+@+.com" id="email" placeholder="Email" rows = "1" cols = "30"></input><br/><br/>
+                <input  type="password" id="txtPassword" placeholder= "Password" rows = "1" cols = "30"></input><br></br>
+                <input  type="password" id="txtretypePassword" placeholder = "Retype password" rows = "1" cols = "30"></input><br/></br>
+                
+                <button type="button" id="btnSubmit">Sign in!</button>
+            </form>
+
+         
+            
+            <div>
+                <img src = "../assets/Musicflip.jpg"/> 
+            </div>
+        </div><!-- End of Wrapper Div-->
+
 </body>
-</html>
+    </html>
