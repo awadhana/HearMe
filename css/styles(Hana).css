@@ -5,7 +5,7 @@
 
 }
 
-Ana was here 
+
             @import url('https://fonts.googleapis.com/css?family=Cardo');
             body {
                 background-color: #000000;
@@ -13,22 +13,33 @@ Ana was here
             }
             h1 {
                 font-size: 45px;
-                font-family: "Cardo";
-                font-weight: bold;
+                font-style: normal;
+                font-weight: 400;
+                src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/IG4DpJdcfaM4xln_vfh5jQ.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF;
+                font-weight: thin;
             }
             h2 {
                 font-size: 25px;
-                font-family: "Cardo";
                 font-weight: thin;
                 line-height: 10px;
+                font-family: 'Cardo';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/IG4DpJdcfaM4xln_vfh5jQ.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF;
             }
             a {
                 font-size: 25px;
-                font-family: "Cardo";
                 font-weight: bold;
                 line-height: 20px;
                 color: #ffffff;
                 text-decoration: none;
+                font-family: 'Cardo';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/IG4DpJdcfaM4xln_vfh5jQ.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF;
             }
             input {
                 border-radius: 5px;
@@ -38,37 +49,21 @@ Ana was here
                 border: 2px solid white;
                 padding: 10px;
                 color: white;
-                
 
             }
-            #txtPassword{
+            #join{
                 font-family: 'Cardo';
                 font-size: 40px;
                 font-style: normal;
                 font-weight: 400;
                 src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/IG4DpJdcfaM4xln_vfh5jQ.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF;
                 border-radius: 5px;
                 font-size: 20px;
                 color:white;
                 background-color: black;
                 border: 2px solid white;
                 padding: 10px; 
-                display:none;
-
-            } 
-            #txtretypePassword{
-                font-family: 'Cardo';
-                font-size: 40px;
-                font-style: normal;
-                font-weight: 400;
-                src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v8/IG4DpJdcfaM4xln_vfh5jQ.woff2) format('woff2');
-                border-radius: 5px;
-                font-size: 20px;
-                color:white;
-                background-color: black;
-                border: 2px solid white;
-                padding: 10px; 
-                display:none;
             }
             h3 {
                 font-family: 'Cardo';

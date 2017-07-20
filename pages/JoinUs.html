@@ -4,15 +4,25 @@
         <title>HearMe</title>
         
         <link rel="stylesheet" href= "../css/styles(Hana).css" type= "text/css">
-        
+
+        <!-- Calls to JQuery -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <!-- API For NoteFlight -->
+        <!--<script src= "http;//www.noteflight.com/clienttapi/2.0.0/nfclient.js"></script>-->
+
+        <!-- We wrote these scripts -->
         <script src="../js/HearMe(Hana).js" ></script>
-        
+        <script src="../js/Validation.js"></script>
+
+
     </head>
     <body>
-       
+
         <div id="wrapper">
             
-            <img src = "../assests/musicbkgd(2).jpg"/>
+            <img src = "../assets/musicbkgd(2).jpg"/>
         
             <div id="header">
                 
@@ -21,39 +31,22 @@
                 <h2>Music!</h2>
             </div>
     
-            <input placeholder="Username" rows = "1" cols = "30"></innput><br/><br/>
-            <input placeholder="Email" rows = "1" cols = "30"></input><br/><br/>
-            <input type= "password" id=txtPassword placeholder= "Password" rows = "1" cols = "30"></input><br/><br/>
-            <input type= "password" id=txtretypePassword placeholder = "Retype password" rows = "1" cols = "30"></input><br/><br>
-  
-            <input type="button" id="btnSubmit" value="Submit" />
-
+            <form method="post" action="#">
+                <input id="username" placeholder="Username" rows = "1" cols = "30"></input><br/><br/>
+                <input  type="email" required  pattern= "+@+.com" id="email" placeholder="Email" rows = "1" cols = "30"></input><br/><br/>
+                <input  type="password" id="txtPassword" placeholder= "Password" rows = "1" cols = "30"></input><br></br>
+                <input  type="password" id="txtretypePassword" placeholder = "Retype password" rows = "1" cols = "30"></input><br/></br>
+                
+                <button type="button" id="btnSubmit">Join Us!</button>
+            </form>
 
             <h3> By Joining Hear Me you agree to our<br/></h3>
-            <a href "termsandconditions.html" target="_top"><h4>Terms and Conditions</h4></a>
+            <a href="termsandconditions.html" target="_top"><h4>Terms and Conditions</h4></a>
             
             <div>
-                <img src = "../assests/Musicflip.jpg"/> 
+                <img src = "../assets/Musicflip.jpg"/> 
             </div>
         </div><!-- End of Wrapper Div-->
-
-
-    <script type="text/javascript">
-        $(function () {
-            $("#btnSubmit").click(function () {
-                var password = $("#txtPassword").val();
-                var confirmPassword = $("#txtretypePassword").val();
-                
-                if (password != confirmPassword) {
-                    alert("Passwords do not match.");
-                    return false;
-                }
-                return true;
-            });
-        });
-
-    </script>
-
-
-    </body>
-</html>
+   
+</body>
+    </html>

@@ -1,12 +1,14 @@
+/*
 function ClearFields() {
      
 document.getElementById('txtPassword').value = '';
 document.getElementById('txtretypePassword').value = '';
 
 }
-  
-window.onload = ClearFields();
 
+
+window.onload = ClearFields();
+*/
 var audioCtx = new (window.AudioContext || window.webkitAudioContext)(); // define audio context
 // Webkit/blink browsers need prefix, Safari won't work without window.
 
