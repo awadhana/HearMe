@@ -164,12 +164,19 @@ hr {
   top: 70px;
   text-align: center;
   background-color: black;
+}
 
+
+#extension {
+  width: 100%;
+  position: relative;
+  height: 800px;
+  
 }
 
 .container-div {
   background-color: black;
-  position: relative;
+  position: absolute;
   width: 400px;
   height: 80px;
   margin: 0 auto;
@@ -179,17 +186,29 @@ hr {
   line-height: 80px;
 }
 
+#box{
+  border: 4px solid white;
+  position: absolute;
+  height: 140px;
+  width: 460px;
+  left: 550px;
+  top: 300px;
+}
+
 #welcomeHeader {
-  top: 200px;
   font-size: 45px;
   text-align: center;
   vertical-align: middle;
   border: 2px solid white;
+  left: 30px;
+  top: 30px;
+  border-radius: 30px;
 }
 
 #buttoncontainer {
-  top: 300px;
+  top: 500px;
   background-color: black;
+  left: 585px;
 }
 
 button {
